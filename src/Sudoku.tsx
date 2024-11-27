@@ -4,7 +4,7 @@ import Square from "./Square"
 import { SudokuContext } from "./SudokuContext"
 
 const Sudoku: React.FC = () => {
-  let { logs } = useContext(SudokuContext)
+  let { logs, solveStep } = useContext(SudokuContext)
   return (
     <div className="flex flex-col items-center m-4">
       <div className="flex flex-col select-none">
@@ -42,7 +42,10 @@ const Sudoku: React.FC = () => {
           ))}
       </div>
       <div className="text-left w-[500px] m-4 flex flex-row justify-center space-x-8">
-        <button className="border border-solid border-black p-4 rounded-full">
+        <button
+          className="border border-solid border-black p-4 rounded-full"
+          onClick={solveStep}
+        >
           运算一步
         </button>
         <button className="border border-solid border-black p-4 rounded-full">

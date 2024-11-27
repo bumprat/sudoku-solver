@@ -33,7 +33,7 @@ interface SudokuContextProps {
 }
 
 const initialSquares: SquareData[][] =
-  JSON.parse(localStorage.getItem("savedData") || "false") &&
+  JSON.parse(localStorage.getItem("savedData") || "false") ||
   Array(9)
     .fill(null)
     .map(() =>
@@ -115,7 +115,82 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
 
   const colors = colorPreset
 
-  const solveStep = () => {}
+  const getSquareGroups = (squares: SquareData[][]) => {
+    const groups = []
+    for (let rowIndex = 0; rowIndex < 9; rowIndex++) {
+      const rowGroup = []
+      for (let colIndex = 0; colIndex < 9; colIndex++) {
+        rowGroup.push(squares[rowIndex][colIndex])
+      }
+      groups.push(rowGroup)
+    }
+    for (let colIndex = 0; colIndex < 9; colIndex++) {
+      const colGroup = []
+      for (let rowIndex = 0; rowIndex < 9; rowIndex++) {
+        colGroup.push(squares[rowIndex][colIndex])
+      }
+      groups.push(colGroup)
+    }
+    for (let _3x3RowIndex = 0; _3x3RowIndex < 3; _3x3RowIndex++) {
+      for (let _3x3ColIndex = 0; _3x3ColIndex < 3; _3x3ColIndex++) {
+        const _3x3Group = []
+        for (let _3x3r = 0; _3x3r < 3; _3x3r++) {
+          for (let _3x3c = 0; _3x3c < 3; _3x3c++) {
+            _3x3Group.push(
+              squares[_3x3RowIndex * 3 + _3x3r][_3x3ColIndex * 3 + _3x3c]
+            )
+          }
+        }
+        groups.push(_3x3Group)
+      }
+    }
+    return groups
+  }
+
+  /**
+   * Generates all combinations of n elements from the given array
+   * @param arr - The input array
+   * @param n - Number of elements in each combination
+   * @returns - An array of combinations
+   */
+  function getCombinations<T>(arr: T[], n: number): T[][] {
+    const result: T[][] = []
+
+    // Recursive helper function
+    function helper(start: number, combo: T[]) {
+      if (combo.length === n) {
+        result.push([...combo])
+        return
+      }
+      for (let i = start; i < arr.length; i++) {
+        combo.push(arr[i])
+        helper(i + 1, combo)
+        combo.pop()
+      }
+    }
+
+    helper(0, [])
+    return result
+  }
+
+  const solveStep = () => {
+    console.log("求解一步")
+    // 重置所有可能解
+    squares.forEach((row, rowIndex) => {
+      row.forEach((square, colIndex) => {
+        square.notes.forEach((n, num) => {
+          if (square.num.value) {
+            n.value = num + 1 === square.num.value
+          } else {
+            n.value = true
+          }
+        })
+      })
+    })
+    const squareGroups = getSquareGroups(squares)
+    console.log(squareGroups)
+    setSquares([...squares])
+  }
 
   const solveAll = () => {}
 
