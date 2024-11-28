@@ -15,7 +15,7 @@ const Sudoku: React.FC = () => {
             .map((_, colIndex) => (
               <div
                 key={colIndex}
-                className="w-[50px] h-[50px] flex items-center justify-center"
+                className="w-[30px] h-[30px] flex items-center justify-center"
               >
                 {colIndex == 0
                   ? "行列"
@@ -27,7 +27,7 @@ const Sudoku: React.FC = () => {
           .fill(null)
           .map((_, rowIndex) => (
             <div className="flex" key={rowIndex}>
-              <div className="w-[50px] flex justify-center items-center">
+              <div className="w-[30px] flex justify-center items-center">
                 {rowIndex + 1}
               </div>
               {Array(9)
@@ -42,7 +42,7 @@ const Sudoku: React.FC = () => {
             </div>
           ))}
       </div>
-      <div className="text-left w-[500px] m-4 flex flex-row justify-center space-x-8">
+      <div className="text-left text-xs w-[300px] m-2 flex flex-row justify-center space-x-8">
         <button
           className="border border-solid border-black p-4 rounded-full"
           onClick={solveStep}
@@ -68,7 +68,7 @@ const Sudoku: React.FC = () => {
           清空
         </button>
       </div>
-      <div className="text-left w-[500px] m-4 max-h-[100px] overflow-auto">
+      <div className="text-left text-xs w-[300px] m-2 max-h-[100px] overflow-auto">
         <pre>{logs}</pre>
       </div>
     </div>

@@ -35,6 +35,7 @@ interface SudokuContextProps {
   solveUntilNot: () => void
   clear: () => void
   reset: () => void
+  log: any
 }
 
 const initialSquares: SquareData[][] =
@@ -81,6 +82,7 @@ export const SudokuContext = createContext<SudokuContextProps>({
   solveUntilNot: () => {},
   clear: () => {},
   reset: () => {},
+  log: () => {},
 })
 
 export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
@@ -400,6 +402,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
         solveUntilNot,
         clear,
         reset,
+        log,
       }}
     >
       {children}

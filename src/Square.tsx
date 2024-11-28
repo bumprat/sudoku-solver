@@ -8,15 +8,16 @@ interface SquareProps {
 }
 
 const Square: React.FC<SquareProps> = ({ row, col }) => {
-  const { squares, fillSquare, colors } = useContext(SudokuContext)
+  const { squares, fillSquare, colors, log } = useContext(SudokuContext)
   const squareData = squares[row][col]
 
-  const handleValueChange = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  const handleValueChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const code = e.target.value.slice(-1)
     let keyValue
-    if (e.key === "Backspace" || e.key === "Delete") {
+    if (code === "") {
       keyValue = null
     } else {
-      keyValue = parseInt(e.key)
+      keyValue = parseInt(code)
       if (isNaN(keyValue)) return
       if (keyValue === 0) return
     }
@@ -38,7 +39,7 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
         row % 3 === 2 ? "border-b-2" : ""
       }
             border border-solid border-black
-            w-[50px] h-[50px] relative cursor-default
+            w-[30px] h-[30px] relative cursor-default
         `}
     >
       <div
@@ -75,7 +76,7 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
       >
         <input
           type="text"
-          maxLength={1}
+          maxLength={2}
           className={`w-full h-full text-center
                         border-none outline-none 
                         text-2xl bg-transparent 
@@ -97,9 +98,17 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
           value={
             squareData.num.value !== null ? squareData.num.value.toString() : ""
           }
-          onKeyDown={handleValueChange}
+          onInput={handleValueChange}
           onChange={() => {}}
-          onFocus={(e) => (e.target.style.backgroundColor = "rgb(254 249 195)")}
+          onFocus={(e) => {
+            e.target.style.backgroundColor = "rgb(254 249 195)"
+            setTimeout(() =>
+              e.target.setSelectionRange(
+                e.target.value.length,
+                e.target.value.length
+              )
+            )
+          }}
           onBlur={(e) =>
             (e.target.style.backgroundColor = squareData.highlight
               ? colors.squareHighlight
