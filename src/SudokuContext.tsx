@@ -331,6 +331,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
     )
   }
 
+  // @ts-ignore
   const clearAllHighlights = () => {
     squares.flat().forEach((square) => {
       square.highlight = false
