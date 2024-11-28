@@ -1,5 +1,6 @@
 // src/SudokuContext.tsx
-import React, { createContext, useState, ReactNode } from "react"
+import React, { createContext, useState, ReactNode, useRef } from "react"
+import sampleData from "./sample-data.json"
 
 interface SquareData {
   num: {
@@ -31,10 +32,13 @@ interface SudokuContextProps {
   logs: String
   fillSquare: (newValue: SquareData) => void
   solveStep: () => void
-  solveAll: () => void
+  solveUntilNot: () => void
+  clear: () => void
+  reset: () => void
 }
 
 const initialSquares: SquareData[][] =
+  sampleData ||
   JSON.parse(localStorage.getItem("savedData") || "false") ||
   Array(9)
     .fill(null)
@@ -59,7 +63,7 @@ const initialSquares: SquareData[][] =
         }))
     )
 
-const colorPreset = {
+const colorPreset: colorScheme = {
   textProvided: "#000",
   squareProvided: "#eee",
   squareTextHighlight: "#126bc4",
@@ -74,40 +78,50 @@ export const SudokuContext = createContext<SudokuContextProps>({
   colors: colorPreset,
   fillSquare: () => {},
   solveStep: () => {},
-  solveAll: () => {},
+  solveUntilNot: () => {},
+  clear: () => {},
+  reset: () => {},
 })
 
 export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [squares, setSquares] = useState<SquareData[][]>(initialSquares)
-  const [logs, setLogs] = useState<string>("在这里显示日志")
+  const isInit = useRef(false)
+  let [logs, setLogs] = useState<string>("在这里显示日志")
 
   const log = (txt: String) => {
-    setLogs(txt + "\n" + logs)
+    logs = txt + "\n" + logs
+    setLogs(logs)
   }
 
   const address = (row: number, col: number) => {
     return `${String.fromCharCode("A".charCodeAt(0) + col)}${row + 1}`
   }
 
+  const save = () => {
+    const squaresCopy: SquareData[][] = JSON.parse(JSON.stringify(squares))
+    squaresCopy.flat().forEach((square) => {
+      if (!square.isProvided) {
+        square.num.value = null
+      }
+      square.highlight = false
+      square.num.highlight = false
+      square.notes.forEach((n) => {
+        n.highlight = false
+        n.value = false
+      })
+    })
+    localStorage.setItem("savedData", JSON.stringify(squaresCopy))
+  }
+
   const fillSquare = (newValue: SquareData) => {
     const newSquares = [...squares]
     const oldValue = newSquares[newValue.row - 1][newValue.col - 1].num.value
     newSquares[newValue.row - 1][newValue.col - 1] = newValue
-    newSquares.forEach((row) => {
-      row.forEach((square) => {
-        square.num.value = square.isProvided ? square.num.value : null
-        square.num.highlight = false
-        square.notes.forEach((note) => {
-          note.highlight = false
-          note.value = false
-        })
-        square.highlight = false
-      })
-    })
     setSquares(newSquares)
-    localStorage.setItem("savedData", JSON.stringify(newSquares))
+    reset()
+    save()
     log(
       `在${address(newValue.row, newValue.col)}中${
         newValue.num.value
@@ -115,6 +129,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
           : "删除数字" + oldValue
       }，重启计算过程......`
     )
+    isInit.current = false
   }
 
   const colors = colorPreset
@@ -179,7 +194,6 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
    */
   function getCombinations<T>(arr: T[], n: number): T[][] {
     const result: T[][] = []
-
     // Recursive helper function
     function helper(start: number, combo: T[]) {
       if (combo.length === n) {
@@ -192,71 +206,74 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
         combo.pop()
       }
     }
-
     helper(0, [])
     return result
   }
 
-  const getSquareIndex = (square: SquareData, squares: SquareData[][]) => {
-    for (let rowIndex = 0; rowIndex < squares.length; rowIndex++) {
-      for (let colIndex = 0; colIndex < squares[0].length; colIndex++) {
-        if (squares[rowIndex][colIndex] === square) {
-          return { rowIndex, colIndex }
-        }
-      }
-    }
-  }
+  // const getSquareIndex = (square: SquareData, squares: SquareData[][]) => {
+  //   for (let rowIndex = 0; rowIndex < squares.length; rowIndex++) {
+  //     for (let colIndex = 0; colIndex < squares[0].length; colIndex++) {
+  //       if (squares[rowIndex][colIndex] === square) {
+  //         return { rowIndex, colIndex }
+  //       }
+  //     }
+  //   }
+  // }
 
-  const solveStep = () => {
-    console.log("求解一步")
+  const initNotes = () => {
     // 重置所有可能解
-    squares.forEach((row, rowIndex) => {
-      row.forEach((square, colIndex) => {
-        square.notes.forEach((n, num) => {
-          if (square.num.value) {
-            n.value = num + 1 === square.num.value
-          } else {
-            n.value = true
-          }
-        })
+    squares.flat().forEach((square) => {
+      square.notes.forEach((n, num) => {
+        if (square.num.value) {
+          n.value = num + 1 === square.num.value
+        } else {
+          n.value = true
+        }
       })
     })
-    console.log("重置所有可能解")
+    isInit.current = true
+  }
 
+  const cyclingSolver = () => {
     //循环暗解
     const squareGroups = getSquareGroups(squares)
-    for (let n = 1; n <= 9; n++) {
-      squareGroups.forEach((group) => {
-        getCombinations(group, n).forEach((combo) => {
-          const numbers = [
-            ...new Set(
-              combo
-                .map((square) =>
-                  square.notes.map((n, i) => (n.value ? i + 1 : 0))
-                )
-                .flat()
-                .filter((n) => n !== 0)
-            ),
-          ]
-          if (numbers.length === n) {
-            group
-              .filter((square) => !combo.includes(square))
-              .forEach((square) => {
-                numbers.forEach((number) => {
-                  square.notes[number - 1].value = false
+    const n_max = squares.length
+    return Array(n_max)
+      .fill(null)
+      .some((_, i) => {
+        let n = i + 1
+        return squareGroups.some((group) => {
+          return getCombinations(group, n).some((combo) => {
+            const numbers = [
+              ...new Set(
+                combo
+                  .map((square) =>
+                    square.notes.map((n, i) => (n.value ? i + 1 : 0))
+                  )
+                  .flat()
+                  .filter((n) => n !== 0)
+              ),
+            ]
+            if (numbers.length === n) {
+              return group
+                .filter((square) => !combo.includes(square))
+                .some((square) => {
+                  return numbers.some((number) => {
+                    if (square.notes[number - 1].value) {
+                      square.notes[number - 1].value = false
+                      return true
+                    }
+                  })
                 })
-              })
-          }
+            }
+          })
         })
       })
-    }
+  }
 
-    //检查是否出现无解
-
-    //检查是否出现明解
-
+  const nByNSolver = () => {
     // 3x3暗解
-    getSmallGroups(squares).forEach((group) => {
+    return getSmallGroups(squares).some((group) => {
       for (let num = 1; num <= 9; num++) {
         const contains = group.filter((square) => square.notes[num - 1].value)
         const rows = [...new Set(contains.map((square) => square.row))]
@@ -264,28 +281,125 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
         if (rows.length === 1) {
           squares.flat().filter((square) => {
             if (square.row === rows[0] && !contains.includes(square)) {
-              square.notes[num - 1].value = false
+              if (square.notes[num - 1].value) {
+                square.notes[num - 1].value = false
+                return true
+              }
             }
           })
         }
         if (cols.length === 1) {
           squares.flat().filter((square) => {
             if (square.col === cols[0] && !contains.includes(square)) {
-              square.notes[num - 1].value = false
+              if (square.notes[num - 1].value) {
+                square.notes[num - 1].value = false
+                return true
+              }
             }
           })
         }
       }
     })
+  }
 
+  const colName = (col: number) => {
+    return String.fromCharCode("A".charCodeAt(0) + col - 1)
+  }
+
+  const checkNum: () => boolean = () => {
+    return squares.some((row) =>
+      row
+        .filter((square) => square.num.value === null)
+        .some((square) => {
+          if (
+            square.notes
+              .map((n) => (n.value ? 1 : 0))
+              .reduce<number>((p, c) => p + c, 0) === 1
+          ) {
+            square.num.value =
+              square.notes.findIndex((n) => n.value === true) + 1
+            square.num.highlight = true
+            square.highlight = true
+            log(
+              `发现${colName(square.col)}${square.row}的明解为${
+                square.num.value
+              }`
+            )
+            return true
+          }
+        })
+    )
+  }
+
+  const clearAllHighlights = () => {
+    squares.flat().forEach((square) => {
+      square.highlight = false
+      square.num.highlight = false
+      square.notes.forEach((n) => {
+        n.highlight = false
+      })
+    })
     setSquares([...squares])
   }
 
-  const solveAll = () => {}
+  const solveStep: () => boolean = () => {
+    if (isInit.current === false) initNotes()
+    // clearAllHighlights()
+    while (cyclingSolver() || nByNSolver()) {
+      setSquares([...squares])
+      if (checkNum()) return true
+    }
+    return false
+  }
+
+  const solveUntilNot = () => {
+    if (isInit.current === false) initNotes()
+    while (solveStep()) {}
+    setSquares([...squares])
+  }
+
+  const reset = () => {
+    squares.flat().forEach((square) => {
+      square.num.value = square.isProvided ? square.num.value : null
+      square.isProvided = square.num.value === null ? false : true
+      square.num.highlight = false
+      square.notes.forEach((note) => {
+        note.highlight = false
+        note.value = false
+      })
+      square.highlight = false
+    })
+    setSquares([...squares])
+    isInit.current = false
+  }
+
+  const clear = () => {
+    squares.flat().forEach((square) => {
+      square.num.value = null
+      square.num.highlight = false
+      square.isProvided = false
+      square.highlight = false
+      square.notes.forEach((n) => {
+        n.value = false
+        n.highlight = false
+      })
+    })
+    setSquares([...squares])
+    save()
+  }
 
   return (
     <SudokuContext.Provider
-      value={{ squares, logs, colors, fillSquare, solveStep, solveAll }}
+      value={{
+        squares,
+        logs,
+        colors,
+        fillSquare,
+        solveStep,
+        solveUntilNot,
+        clear,
+        reset,
+      }}
     >
       {children}
     </SudokuContext.Provider>
