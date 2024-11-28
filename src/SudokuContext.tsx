@@ -1,5 +1,5 @@
 // src/SudokuContext.tsx
-import React, { createContext, useState, useRef, ReactNode } from "react"
+import React, { createContext, useState, ReactNode } from "react"
 
 interface SquareData {
   num: {
@@ -12,6 +12,8 @@ interface SquareData {
   }[]
   highlight: boolean
   isProvided: boolean
+  row: number
+  col: number
 }
 
 interface colorScheme {
@@ -27,7 +29,7 @@ interface SudokuContextProps {
   squares: SquareData[][]
   colors: colorScheme
   logs: String
-  fillSquare: (row: number, col: number, newValue: SquareData) => void
+  fillSquare: (newValue: SquareData) => void
   solveStep: () => void
   solveAll: () => void
 }
@@ -36,10 +38,10 @@ const initialSquares: SquareData[][] =
   JSON.parse(localStorage.getItem("savedData") || "false") ||
   Array(9)
     .fill(null)
-    .map(() =>
+    .map((_, r) =>
       Array(9)
         .fill(null)
-        .map(() => ({
+        .map((_, c) => ({
           num: {
             value: Math.ceil(Math.random() * 9),
             highlight: !Math.round(Math.random()),
@@ -52,6 +54,8 @@ const initialSquares: SquareData[][] =
             })),
           highlight: !Math.round(Math.random()),
           isProvided: !Math.round(Math.random()),
+          row: r + 1,
+          col: c + 1,
         }))
     )
 
@@ -87,10 +91,10 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
     return `${String.fromCharCode("A".charCodeAt(0) + col)}${row + 1}`
   }
 
-  const fillSquare = (row: number, col: number, newValue: SquareData) => {
+  const fillSquare = (newValue: SquareData) => {
     const newSquares = [...squares]
-    const oldValue = newSquares[row][col].num.value
-    newSquares[row][col] = newValue
+    const oldValue = newSquares[newValue.row - 1][newValue.col - 1].num.value
+    newSquares[newValue.row - 1][newValue.col - 1] = newValue
     newSquares.forEach((row) => {
       row.forEach((square) => {
         square.num.value = square.isProvided ? square.num.value : null
@@ -105,7 +109,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
     setSquares(newSquares)
     localStorage.setItem("savedData", JSON.stringify(newSquares))
     log(
-      `在${address(row, col)}中${
+      `在${address(newValue.row, newValue.col)}中${
         newValue.num.value
           ? `填入数字` + newValue.num.value
           : "删除数字" + oldValue
@@ -115,35 +119,55 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
 
   const colors = colorPreset
 
-  const getSquareGroups = (squares: SquareData[][]) => {
-    const groups = []
-    for (let rowIndex = 0; rowIndex < 9; rowIndex++) {
+  const getRowGroups = (squares: SquareData[][]) => {
+    const groups: SquareData[][] = []
+    for (let rowIndex = 0; rowIndex < squares.length; rowIndex++) {
       const rowGroup = []
-      for (let colIndex = 0; colIndex < 9; colIndex++) {
+      for (let colIndex = 0; colIndex < squares[0].length; colIndex++) {
         rowGroup.push(squares[rowIndex][colIndex])
       }
       groups.push(rowGroup)
     }
-    for (let colIndex = 0; colIndex < 9; colIndex++) {
+    return groups
+  }
+
+  const getColGroups = (squares: SquareData[][]) => {
+    const groups: SquareData[][] = []
+    for (let colIndex = 0; colIndex < squares[0].length; colIndex++) {
       const colGroup = []
-      for (let rowIndex = 0; rowIndex < 9; rowIndex++) {
+      for (let rowIndex = 0; rowIndex < squares.length; rowIndex++) {
         colGroup.push(squares[rowIndex][colIndex])
       }
       groups.push(colGroup)
     }
-    for (let _3x3RowIndex = 0; _3x3RowIndex < 3; _3x3RowIndex++) {
-      for (let _3x3ColIndex = 0; _3x3ColIndex < 3; _3x3ColIndex++) {
-        const _3x3Group = []
-        for (let _3x3r = 0; _3x3r < 3; _3x3r++) {
-          for (let _3x3c = 0; _3x3c < 3; _3x3c++) {
-            _3x3Group.push(
-              squares[_3x3RowIndex * 3 + _3x3r][_3x3ColIndex * 3 + _3x3c]
-            )
+    return groups
+  }
+
+  const getSmallGroups = (squares: SquareData[][]) => {
+    const groups: SquareData[][] = []
+    const n = Math.sqrt(squares.length)
+    if (!Number.isInteger(n)) {
+      return groups
+    }
+    for (let nRowIndex = 0; nRowIndex < n; nRowIndex++) {
+      for (let nColIndex = 0; nColIndex < n; nColIndex++) {
+        const nGroup = []
+        for (let nr = 0; nr < n; nr++) {
+          for (let nc = 0; nc < n; nc++) {
+            nGroup.push(squares[nRowIndex * 3 + nr][nColIndex * 3 + nc])
           }
         }
-        groups.push(_3x3Group)
+        groups.push(nGroup)
       }
     }
+    return groups
+  }
+
+  const getSquareGroups = (squares: SquareData[][]) => {
+    let groups: SquareData[][] = []
+    groups = groups.concat(getRowGroups(squares))
+    groups = groups.concat(getColGroups(squares))
+    groups = groups.concat(getSmallGroups(squares))
     return groups
   }
 
@@ -173,6 +197,16 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
     return result
   }
 
+  const getSquareIndex = (square: SquareData, squares: SquareData[][]) => {
+    for (let rowIndex = 0; rowIndex < squares.length; rowIndex++) {
+      for (let colIndex = 0; colIndex < squares[0].length; colIndex++) {
+        if (squares[rowIndex][colIndex] === square) {
+          return { rowIndex, colIndex }
+        }
+      }
+    }
+  }
+
   const solveStep = () => {
     console.log("求解一步")
     // 重置所有可能解
@@ -187,8 +221,63 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
         })
       })
     })
+    console.log("重置所有可能解")
+
+    //循环暗解
     const squareGroups = getSquareGroups(squares)
-    console.log(squareGroups)
+    for (let n = 1; n <= 9; n++) {
+      squareGroups.forEach((group) => {
+        getCombinations(group, n).forEach((combo) => {
+          const numbers = [
+            ...new Set(
+              combo
+                .map((square) =>
+                  square.notes.map((n, i) => (n.value ? i + 1 : 0))
+                )
+                .flat()
+                .filter((n) => n !== 0)
+            ),
+          ]
+          if (numbers.length === n) {
+            group
+              .filter((square) => !combo.includes(square))
+              .forEach((square) => {
+                numbers.forEach((number) => {
+                  square.notes[number - 1].value = false
+                })
+              })
+          }
+        })
+      })
+    }
+
+    //检查是否出现无解
+
+    //检查是否出现明解
+
+    // 3x3暗解
+    getSmallGroups(squares).forEach((group) => {
+      for (let num = 1; num <= 9; num++) {
+        const contains = group.filter((square) => square.notes[num - 1].value)
+        const rows = [...new Set(contains.map((square) => square.row))]
+        const cols = [...new Set(contains.map((square) => square.col))]
+        if (rows.length === 1) {
+          squares.flat().filter((square) => {
+            if (square.row === rows[0] && !contains.includes(square)) {
+              square.notes[num - 1].value = false
+            }
+          })
+        }
+        if (cols.length === 1) {
+          squares.flat().filter((square) => {
+            if (square.col === cols[0] && !contains.includes(square)) {
+              square.notes[num - 1].value = false
+            }
+          })
+        }
+      }
+    })
+
     setSquares([...squares])
   }
 

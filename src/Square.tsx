@@ -21,7 +21,7 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
       if (keyValue === 0) return
     }
     if (keyValue === squareData.num.value) return
-    fillSquare(row, col, {
+    fillSquare({
       ...squareData,
       num: { value: keyValue, highlight: false },
       isProvided: true,
