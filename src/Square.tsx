@@ -8,7 +8,7 @@ interface SquareProps {
 }
 
 const Square: React.FC<SquareProps> = ({ row, col }) => {
-  const { squares, fillSquare, colors, log } = useContext(SudokuContext)
+  const { squares, fillSquare, colors } = useContext(SudokuContext)
   const squareData = squares[row][col]
 
   const handleValueChange = (e: React.ChangeEvent<HTMLInputElement>) => {
