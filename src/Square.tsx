@@ -31,34 +31,23 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
 
   return (
     <div
-      className={`
-            ${col % 3 === 0 ? "border-l-2" : ""} ${
+      className={` ${col % 3 === 0 ? "border-l-2" : ""} ${
         col % 3 === 2 ? "border-r-2" : ""
-      }
-            ${row % 3 === 0 ? "border-t-2" : ""} ${
+      } ${row % 3 === 0 ? "border-t-2" : ""} ${
         row % 3 === 2 ? "border-b-2" : ""
-      }
-            border border-solid border-black
-            w-[30px] h-[30px] relative cursor-default
-        `}
+      } relative h-[9vw] max-h-[4vh] w-[9vw] max-w-[4vh] cursor-default border border-solid border-black`}
     >
       <div
-        className={`grid grid-cols-3 grid-rows-3 w-full h-full
-            top-0 left-0 absolute ${
-              squareData.num.value ? "invisible" : "visible"
-            }`}
+        className={`absolute left-0 top-0 grid h-full w-full grid-cols-3 grid-rows-3 ${
+          squareData.num.value ? "invisible" : "visible"
+        }`}
       >
         {squareData.notes.map((note, index) => (
           <div
             key={index}
-            className={`w-full h-full p-0
-                                text-center text-[10px] 
-                                flex items-center justify-center
-                                cursor-none 
-                                ${
-                                  note.value ? "text-black" : "text-transparent"
-                                }
-                                ${note.highlight ? "font-black" : ""}`}
+            className={`flex h-full w-full cursor-none items-center justify-center p-0 text-center text-[10px] ${
+              note.value ? "text-black" : "text-transparent"
+            } ${note.highlight ? "font-black" : ""}`}
             style={{
               backgroundColor: note.highlight
                 ? colors.noteHighlight
@@ -70,23 +59,13 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
           </div>
         ))}
       </div>
-      <div
-        className={`w-full h-full text-center 
-            top-0 left-0 absolute`}
-      >
+      <div className={`absolute left-0 top-0 h-full w-full text-center`}>
         <input
           type="text"
           maxLength={2}
-          className={`w-full h-full text-center
-                        border-none outline-none 
-                        text-2xl bg-transparent 
-                        cursor-pointer caret-transparent
-                        ${
-                          squareData.isProvided || squareData.num.highlight
-                            ? "font-bold"
-                            : ""
-                        }
-                    `}
+          className={`h-full w-full cursor-pointer border-none bg-transparent text-center text-2xl caret-transparent outline-none ${
+            squareData.isProvided || squareData.num.highlight ? "font-bold" : ""
+          } `}
           style={{
             backgroundColor: squareData.highlight
               ? colors.squareHighlight
@@ -105,8 +84,8 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
             setTimeout(() =>
               e.target.setSelectionRange(
                 e.target.value.length,
-                e.target.value.length
-              )
+                e.target.value.length,
+              ),
             )
           }}
           onBlur={(e) =>

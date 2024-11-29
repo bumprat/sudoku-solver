@@ -61,7 +61,7 @@ const initialSquares: SquareData[][] =
           isProvided: !Math.round(Math.random()),
           row: r + 1,
           col: c + 1,
-        }))
+        })),
     )
 
 const colorPreset: colorScheme = {
@@ -129,7 +129,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
         newValue.num.value
           ? `填入数字` + newValue.num.value
           : "删除数字" + oldValue
-      }，重启计算过程......`
+      }，重启计算过程......`,
     )
     isInit.current = false
   }
@@ -250,10 +250,10 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
               ...new Set(
                 combo
                   .map((square) =>
-                    square.notes.map((n, i) => (n.value ? i + 1 : 0))
+                    square.notes.map((n, i) => (n.value ? i + 1 : 0)),
                   )
                   .flat()
-                  .filter((n) => n !== 0)
+                  .filter((n) => n !== 0),
               ),
             ]
             if (numbers.length === n) {
@@ -325,11 +325,11 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
             log(
               `发现${colName(square.col)}${square.row}的明解为${
                 square.num.value
-              }`
+              }`,
             )
             return true
           }
-        })
+        }),
     )
   }
 
