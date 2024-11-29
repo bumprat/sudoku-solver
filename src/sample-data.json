@@ -1,493 +1,165 @@
 [
   [
     {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 1,
-      "col": 1
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 1,
-      "col": 2
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 1,
-      "col": 3
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 1,
-      "col": 4
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 1,
-      "col": 5
-    },
-    {
-      "num": { "value": 5, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 1,
-      "col": 6
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 1,
-      "col": 7
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 1,
-      "col": 8
-    },
-    {
-      "num": { "value": 2, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 1,
-      "col": 9
-    }
-  ],
-  [
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 2,
-      "col": 1
-    },
-    {
       "num": { "value": 1, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 2,
-      "col": 2
-    },
-    {
-      "num": { "value": 7, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 2,
-      "col": 3
-    },
-    {
-      "num": { "value": 6, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 2,
-      "col": 4
-    },
-    {
-      "num": { "value": 2, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 2,
-      "col": 5
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 2,
-      "col": 6
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 2,
-      "col": 7
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 2,
-      "col": 8
-    },
-    {
-      "num": { "value": 3, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 2,
-      "col": 9
-    }
-  ],
-  [
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 3,
+      "row": 1,
       "col": 1
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 3,
+      "row": 1,
       "col": 2
     },
     {
       "num": { "value": 9, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 3,
+      "row": 1,
       "col": 3
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 3,
+      "row": 1,
       "col": 4
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 3,
+      "row": 1,
       "col": 5
     },
     {
-      "num": { "value": 3, "highlight": false },
+      "num": { "value": 2, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 3,
+      "row": 1,
       "col": 6
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 3,
+      "row": 1,
       "col": 7
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 3,
+      "row": 1,
       "col": 8
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 3,
+      "row": 1,
       "col": 9
     }
   ],
@@ -495,51 +167,379 @@
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 4,
+      "row": 2,
       "col": 1
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 4,
+      "row": 2,
       "col": 2
+    },
+    {
+      "num": { "value": 2, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 2,
+      "col": 3
+    },
+    {
+      "num": { "value": 5, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 2,
+      "col": 4
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 2,
+      "col": 5
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 2,
+      "col": 6
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 2,
+      "col": 7
     },
     {
       "num": { "value": 6, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 2,
+      "col": 8
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 2,
+      "col": 9
+    }
+  ],
+  [
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 3,
+      "col": 1
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 3,
+      "col": 2
+    },
+    {
+      "num": { "value": 3, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 3,
+      "col": 3
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 3,
+      "col": 4
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 3,
+      "col": 5
+    },
+    {
+      "num": { "value": 6, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 3,
+      "col": 6
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 3,
+      "col": 7
+    },
+    {
+      "num": { "value": 8, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 3,
+      "col": 8
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 3,
+      "col": 9
+    }
+  ],
+  [
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 4,
+      "col": 1
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 4,
+      "col": 2
+    },
+    {
+      "num": { "value": 4, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
@@ -549,15 +549,15 @@
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
@@ -567,15 +567,15 @@
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
@@ -583,53 +583,53 @@
       "col": 5
     },
     {
-      "num": { "value": null, "highlight": false },
+      "num": { "value": 5, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
-      "isProvided": false,
+      "isProvided": true,
       "row": 4,
       "col": 6
     },
     {
-      "num": { "value": null, "highlight": false },
+      "num": { "value": 3, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
-      "isProvided": false,
+      "isProvided": true,
       "row": 4,
       "col": 7
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
@@ -639,15 +639,15 @@
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
@@ -657,89 +657,89 @@
   ],
   [
     {
-      "num": { "value": 4, "highlight": false },
+      "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
-      "isProvided": true,
+      "isProvided": false,
       "row": 5,
       "col": 1
     },
     {
-      "num": { "value": null, "highlight": false },
+      "num": { "value": 2, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 5,
-      "col": 2
-    },
-    {
-      "num": { "value": 1, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
       "row": 5,
-      "col": 3
+      "col": 2
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
       "row": 5,
+      "col": 3
+    },
+    {
+      "num": { "value": 1, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 5,
       "col": 4
     },
     {
-      "num": { "value": 3, "highlight": false },
+      "num": { "value": 9, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
@@ -747,17 +747,17 @@
       "col": 5
     },
     {
-      "num": { "value": 8, "highlight": false },
+      "num": { "value": 3, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
@@ -767,15 +767,15 @@
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
@@ -783,35 +783,35 @@
       "col": 7
     },
     {
-      "num": { "value": null, "highlight": false },
+      "num": { "value": 7, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
-      "isProvided": false,
+      "isProvided": true,
       "row": 5,
       "col": 8
     },
     {
       "num": { "value": 5, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
@@ -823,633 +823,633 @@
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
       "row": 6,
+      "col": 1
+    },
+    {
+      "num": { "value": 3, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 6,
+      "col": 2
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 6,
+      "col": 3
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 6,
+      "col": 4
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 6,
+      "col": 5
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 6,
+      "col": 6
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 6,
+      "col": 7
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 6,
+      "col": 8
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 6,
+      "col": 9
+    }
+  ],
+  [
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 7,
       "col": 1
     },
     {
       "num": { "value": 9, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 6,
+      "row": 7,
       "col": 2
     },
     {
-      "num": { "value": 3, "highlight": false },
+      "num": { "value": 8, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 6,
+      "row": 7,
       "col": 3
     },
     {
-      "num": { "value": 2, "highlight": false },
+      "num": { "value": 4, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 6,
+      "row": 7,
       "col": 4
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 6,
+      "row": 7,
       "col": 5
     },
     {
-      "num": { "value": null, "highlight": false },
+      "num": { "value": 1, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
-      "isProvided": false,
-      "row": 6,
+      "isProvided": true,
+      "row": 7,
       "col": 6
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 6,
+      "row": 7,
       "col": 7
     },
     {
-      "num": { "value": 7, "highlight": false },
+      "num": { "value": 2, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 6,
+      "row": 7,
       "col": 8
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 6,
+      "row": 7,
       "col": 9
     }
   ],
   [
     {
-      "num": { "value": 7, "highlight": false },
+      "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
-      "isProvided": true,
-      "row": 7,
+      "isProvided": false,
+      "row": 8,
       "col": 1
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 7,
+      "row": 8,
       "col": 2
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 7,
+      "row": 8,
       "col": 3
     },
     {
-      "num": { "value": 1, "highlight": false },
+      "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
-      "isProvided": true,
-      "row": 7,
+      "isProvided": false,
+      "row": 8,
       "col": 4
     },
     {
-      "num": { "value": 8, "highlight": false },
+      "num": { "value": 2, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
-      "row": 7,
+      "row": 8,
       "col": 5
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 7,
+      "row": 8,
       "col": 6
     },
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,
-      "row": 7,
+      "row": 8,
+      "col": 7
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 8,
+      "col": 8
+    },
+    {
+      "num": { "value": 1, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 8,
+      "col": 9
+    }
+  ],
+  [
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 9,
+      "col": 1
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 9,
+      "col": 2
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 9,
+      "col": 3
+    },
+    {
+      "num": { "value": 6, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 9,
+      "col": 4
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 9,
+      "col": 5
+    },
+    {
+      "num": { "value": 9, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": true,
+      "row": 9,
+      "col": 6
+    },
+    {
+      "num": { "value": null, "highlight": false },
+      "notes": [
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
+      ],
+      "highlight": false,
+      "isProvided": false,
+      "row": 9,
       "col": 7
     },
     {
       "num": { "value": 5, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 7,
-      "col": 8
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 7,
-      "col": 9
-    }
-  ],
-  [
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 1
-    },
-    {
-      "num": { "value": 6, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 8,
-      "col": 2
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 3
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 4
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 5
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 6
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 7
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 8
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 8,
-      "col": 9
-    }
-  ],
-  [
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 9,
-      "col": 1
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 9,
-      "col": 2
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 9,
-      "col": 3
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 9,
-      "col": 4
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 9,
-      "col": 5
-    },
-    {
-      "num": { "value": 2, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": true,
-      "row": 9,
-      "col": 6
-    },
-    {
-      "num": { "value": null, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
-      ],
-      "highlight": false,
-      "isProvided": false,
-      "row": 9,
-      "col": 7
-    },
-    {
-      "num": { "value": 4, "highlight": false },
-      "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": true,
@@ -1459,15 +1459,15 @@
     {
       "num": { "value": null, "highlight": false },
       "notes": [
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false },
-        { "value": false, "highlight": false }
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] },
+        { "value": false, "highlight": false, "reason": null, "blame": [] }
       ],
       "highlight": false,
       "isProvided": false,

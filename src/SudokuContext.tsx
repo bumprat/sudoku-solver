@@ -2,15 +2,19 @@
 import React, { createContext, useState, ReactNode, useRef } from "react"
 import sampleData from "./sample-data.json"
 
+interface note {
+  value: boolean
+  highlight: boolean
+  reason: string | null
+  blame: SquareData[]
+}
+
 interface SquareData {
   num: {
     value: number | null
     highlight: boolean
   }
-  notes: {
-    value: boolean
-    highlight: boolean
-  }[]
+  notes: note[]
   highlight: boolean
   isProvided: boolean
   row: number
@@ -46,22 +50,26 @@ const initialSquares: SquareData[][] =
     .map((_, r) =>
       Array(9)
         .fill(null)
-        .map((_, c) => ({
-          num: {
-            value: Math.ceil(Math.random() * 9),
-            highlight: !Math.round(Math.random()),
-          },
-          notes: Array(9)
-            .fill(null)
-            .map(() => ({
-              value: !Math.round(Math.random()),
+        .map(
+          (_, c): SquareData => ({
+            num: {
+              value: Math.ceil(Math.random() * 9),
               highlight: !Math.round(Math.random()),
-            })),
-          highlight: !Math.round(Math.random()),
-          isProvided: !Math.round(Math.random()),
-          row: r + 1,
-          col: c + 1,
-        })),
+            },
+            notes: Array(9)
+              .fill(null)
+              .map(() => ({
+                value: !Math.round(Math.random()),
+                highlight: !Math.round(Math.random()),
+                reason: null,
+                blame: [],
+              })),
+            highlight: !Math.round(Math.random()),
+            isProvided: !Math.round(Math.random()),
+            row: r + 1,
+            col: c + 1,
+          }),
+        ),
     )
 
 const colorPreset: colorScheme = {
@@ -112,6 +120,8 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
       square.notes.forEach((n) => {
         n.highlight = false
         n.value = false
+        n.reason = null
+        n.blame = []
       })
     })
     localStorage.setItem("savedData", JSON.stringify(squaresCopy))
@@ -231,6 +241,8 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
         } else {
           n.value = true
         }
+        n.reason = null
+        n.blame = []
       })
     })
     isInit.current = true
@@ -262,7 +274,10 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
                 .some((square) => {
                   return numbers.some((number) => {
                     if (square.notes[number - 1].value) {
-                      square.notes[number - 1].value = false
+                      const note = square.notes[number - 1]
+                      note.value = false
+                      note.reason = "循环解"
+                      note.blame = note.blame.concat(...combo)
                       return true
                     }
                   })
@@ -284,7 +299,10 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
           squares.flat().filter((square) => {
             if (square.row === rows[0] && !contains.includes(square)) {
               if (square.notes[num - 1].value) {
-                square.notes[num - 1].value = false
+                const note = square.notes[num - 1]
+                note.value = false
+                note.reason = "3x3暗解"
+                note.blame = note.blame.concat(...contains)
                 return true
               }
             }
@@ -294,7 +312,10 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
           squares.flat().filter((square) => {
             if (square.col === cols[0] && !contains.includes(square)) {
               if (square.notes[num - 1].value) {
-                square.notes[num - 1].value = false
+                const note = square.notes[num - 1]
+                note.value = false
+                note.reason = "3x3暗解"
+                note.blame = note.blame.concat(...contains)
                 return true
               }
             }
@@ -322,10 +343,16 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
               square.notes.findIndex((n) => n.value === true) + 1
             square.num.highlight = true
             square.highlight = true
+            const blames = [
+              ...new Set(square.notes.map((note) => note.blame).flat()),
+            ]
+            blames.forEach((square) => {
+              square.highlight = true
+            })
             log(
               `发现${colName(square.col)}${square.row}的明解为${
                 square.num.value
-              }`,
+              }，原因为${blames.map((b) => address(b.row, b.col)).join("、")}。`,
             )
             return true
           }
@@ -347,7 +374,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
 
   const solveStep: () => boolean = () => {
     if (isInit.current === false) initNotes()
-    // clearAllHighlights()
+    clearAllHighlights()
     while (cyclingSolver() || nByNSolver()) {
       setSquares([...squares])
       if (checkNum()) return true
@@ -369,6 +396,8 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
       square.notes.forEach((note) => {
         note.highlight = false
         note.value = false
+        note.reason = null
+        note.blame = []
       })
       square.highlight = false
     })
@@ -382,9 +411,11 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
       square.num.highlight = false
       square.isProvided = false
       square.highlight = false
-      square.notes.forEach((n) => {
-        n.value = false
-        n.highlight = false
+      square.notes.forEach((note) => {
+        note.value = false
+        note.highlight = false
+        note.reason = null
+        note.blame = []
       })
     })
     setSquares([...squares])

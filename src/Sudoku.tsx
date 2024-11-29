@@ -88,7 +88,7 @@ const Sudoku: React.FC = () => {
           &nbsp;清空
         </button>
       </div>
-      <div className="m-2 w-full flex-1 basis-0 overflow-auto border-[2px] border-solid border-gray-500 bg-gray-200 p-2 text-left text-sm">
+      <div className="m-2 w-[80vw] flex-1 basis-0 overflow-auto border-[2px] border-solid border-gray-500 bg-gray-200 p-2 text-left text-sm">
         <pre>{logs}</pre>
       </div>
     </div>

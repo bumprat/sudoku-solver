@@ -24,7 +24,19 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
     if (keyValue === squareData.num.value) return
     fillSquare({
       ...squareData,
-      num: { value: keyValue, highlight: false },
+      num: {
+        value: keyValue,
+        highlight: false,
+      },
+      notes: Array(9)
+        .fill(null)
+        .map(() => ({
+          value: false,
+          highlight: false,
+          reason: null,
+          blame: [],
+        })),
+      highlight: false,
       isProvided: true,
     })
   }
@@ -37,6 +49,14 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
         row % 3 === 2 ? "border-b-2" : ""
       } relative h-[9vw] max-h-[4vh] w-[9vw] max-w-[4vh] cursor-default border border-solid border-black`}
     >
+      <div
+        className={`absolute left-0 top-0 h-full w-full text-center`}
+        style={{
+          backgroundColor: squareData.highlight
+            ? colors.squareHighlight
+            : undefined,
+        }}
+      ></div>
       <div
         className={`absolute left-0 top-0 grid h-full w-full grid-cols-3 grid-rows-3 ${
           squareData.num.value ? "invisible" : "visible"
@@ -67,9 +87,6 @@ const Square: React.FC<SquareProps> = ({ row, col }) => {
             squareData.isProvided || squareData.num.highlight ? "font-bold" : ""
           } `}
           style={{
-            backgroundColor: squareData.highlight
-              ? colors.squareHighlight
-              : undefined,
             color: squareData.num.highlight
               ? colors.squareTextHighlight
               : undefined,
