@@ -39,6 +39,7 @@ interface SudokuContextProps {
   solveUntilNot: () => void
   clear: () => void
   reset: () => void
+  example: () => void
   log: any
 }
 
@@ -90,13 +91,14 @@ export const SudokuContext = createContext<SudokuContextProps>({
   solveUntilNot: () => {},
   clear: () => {},
   reset: () => {},
+  example: () => {},
   log: () => {},
 })
 
 export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [squares, setSquares] = useState<SquareData[][]>(initialSquares)
+  let [squares, setSquares] = useState<SquareData[][]>(initialSquares)
   const isInit = useRef(false)
   let [logs, setLogs] = useState<string>("在这里显示日志")
 
@@ -409,11 +411,11 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
     if (isInit.current === false) initNotes()
     clearAllHighlights()
     if (checkFail()) {
-      log("失败")
+      log("解算失败")
       return false
     }
     if (checkWin()) {
-      log("成功")
+      log("解算完毕")
       return false
     }
     while (cyclingSolver() || nByNSolver()) {
@@ -460,6 +462,15 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
       })
     })
     setSquares([...squares])
+    setLogs("")
+    save()
+  }
+
+  const example = () => {
+    squares = JSON.parse(JSON.stringify(sampleData))
+    isInit.current = false
+    setSquares([...squares])
+    log("加载示例数据")
     save()
   }
 
@@ -474,6 +485,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
         solveUntilNot,
         clear,
         reset,
+        example,
         log,
       }}
     >

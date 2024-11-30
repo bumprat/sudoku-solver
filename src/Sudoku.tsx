@@ -4,7 +4,7 @@ import Square from "./Square"
 import { SudokuContext } from "./SudokuContext"
 
 const Sudoku: React.FC = () => {
-  let { logs, solveStep, clear, solveUntilNot, reset } =
+  let { logs, solveStep, clear, solveUntilNot, reset, example } =
     useContext(SudokuContext)
   return (
     <div className="justify-top flex h-full flex-grow flex-col items-center">
@@ -75,6 +75,17 @@ const Sudoku: React.FC = () => {
             alt="icon"
           />
           &nbsp;重来
+        </button>
+        <button
+          className="flex-1 border-[2px] border-solid border-black hover:bg-white"
+          onClick={example}
+        >
+          <img
+            src="./sudoku-svgrepo-com.svg"
+            className="inline h-6 align-middle"
+            alt="icon"
+          />
+          &nbsp;示例
         </button>
         <button
           className="flex-1 border-[2px] border-solid border-black hover:bg-white"
