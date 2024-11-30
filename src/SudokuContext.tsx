@@ -43,8 +43,8 @@ interface SudokuContextProps {
 }
 
 const initialSquares: SquareData[][] =
-  sampleData ||
   JSON.parse(localStorage.getItem("savedData") || "false") ||
+  sampleData ||
   Array(9)
     .fill(null)
     .map((_, r) =>
