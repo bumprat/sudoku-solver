@@ -1,5 +1,7 @@
 # 数独解算器 Sudoku Solver
 
+[DEMO](https://bumprat.github.io/sudoku-solver)
+
 # 为什么做这个程序 Why?
 
 最近玩数独，总结出了一套万能方法，想要固化到程序里。
