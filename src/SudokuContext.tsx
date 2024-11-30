@@ -106,7 +106,7 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
   }
 
   const address = (row: number, col: number) => {
-    return `${String.fromCharCode("A".charCodeAt(0) + col)}${row + 1}`
+    return `${String.fromCharCode("A".charCodeAt(0) + col - 1)}${row}`
   }
 
   const save = () => {
