@@ -360,6 +360,39 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
     )
   }
 
+  const checkFail = () => {
+    return (
+      squares.flat().some((square) => {
+        if (!square.notes.some((note) => note.value === true)) {
+          clearAllHighlights()
+          square.highlight = true
+          return true
+        }
+      }) ||
+      getSquareGroups(squares).some((group) => {
+        return getCombinations(group, 2).some((combo) => {
+          if (combo.some((square) => square.num.value === null)) return false
+          if (
+            [...new Set(combo.map((square) => square.num.value))].length === 1
+          ) {
+            clearAllHighlights()
+            combo.forEach((square) => (square.num.highlight = true))
+            return true
+          }
+        })
+      })
+    )
+  }
+
+  const checkWin = () => {
+    return !squares.flat().some((square) => {
+      if (square.num.value === null) {
+        square.highlight = true
+        return true
+      }
+    })
+  }
+
   // @ts-ignore
   const clearAllHighlights = () => {
     squares.flat().forEach((square) => {
@@ -375,6 +408,14 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
   const solveStep: () => boolean = () => {
     if (isInit.current === false) initNotes()
     clearAllHighlights()
+    if (checkFail()) {
+      log("失败")
+      return false
+    }
+    if (checkWin()) {
+      log("成功")
+      return false
+    }
     while (cyclingSolver() || nByNSolver()) {
       setSquares([...squares])
       if (checkNum()) return true
