@@ -389,7 +389,6 @@ export const SudokuProvider: React.FC<{ children: ReactNode }> = ({
   const checkWin = () => {
     return !squares.flat().some((square) => {
       if (square.num.value === null) {
-        square.highlight = true
         return true
       }
     })
